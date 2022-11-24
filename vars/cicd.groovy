@@ -6,3 +6,7 @@ def newBuild()
 {
   sh 'mvn package'
 }
+def newDeploy(jobname,ip,appname)
+{
+  
+  
